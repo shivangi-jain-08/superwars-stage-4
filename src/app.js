@@ -2,7 +2,7 @@ const PLAYERS = [
   'Spiderman',
   'Captain America',
   'Wonderwoman',
-  "Popcorn",
+  // "Popcorn",
   // "Gemwoman",
   // "Bolt",
   // "Antwoman",
