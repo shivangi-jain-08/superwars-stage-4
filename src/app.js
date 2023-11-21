@@ -2,7 +2,7 @@ const PLAYERS = [
   'Spiderman',
   'Captain America',
   'Wonderwoman',
-  // "Popcorn",
+  "Popcorn",
   // "Gemwoman",
   // "Bolt",
   // "Antwoman",
@@ -27,11 +27,9 @@ class Player {
     // Progression 1: Create member variables and assign values
     this.id = id;
     this.name = name;
-    this.imageSrc = `./images/super-${id+1}.png`;
+    this.image = `images/super-${id+1}.png`;
     this.strength = this.getRandomStrength();
     this.type = type;
-    this.selected = false;
-    this.wins = 0;
   }
   // getting random strength
   getRandomStrength = () => {
@@ -47,7 +45,7 @@ class Player {
     player.setAttribute('data-id', this.id);
     if (this.selected == true) player.classList.add('selected');
     let image = document.createElement('img');
-    image.setAttribute('src', this.imageSrc);
+    image.setAttribute('src', this.image);
     let name = document.createElement('div');
     name.textContent = this.name;
     let strength = document.createElement('div');
