@@ -67,7 +67,7 @@ To begin the war there should be players, we can generate players by creating an
 
 **NOTE:** Once you are done with Progression 3 -> you can uncomment "window.onload" section (last 3 lines of the file) - to see the output on the webpage. Keep in mind that if you uncomment it before defining superwars correctly, your test page won't load.
 
-## Expected Output
+## Expect Output
 
 ![Superwars](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superwars-oops.png)
 
